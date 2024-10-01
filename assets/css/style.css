@@ -57,7 +57,7 @@
 }
 
 .container {
-  max-width: 1596px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -391,7 +391,7 @@ nav ul li {
   border: 1px solid var(--Green-90, #eef8d3);
   background: var(--Green-95, #f6fbe9);
   padding: 50px;
-  width: 470px;
+  width: 460px;
   height: 497px;
 }
 
@@ -400,7 +400,7 @@ nav ul li {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 15px;
 }
 
 .card h3 {
