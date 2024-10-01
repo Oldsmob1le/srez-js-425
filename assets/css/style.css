@@ -374,7 +374,7 @@ nav ul li {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
 }
 
 .tab__text.active {
@@ -391,7 +391,7 @@ nav ul li {
   border: 1px solid var(--Green-90, #eef8d3);
   background: var(--Green-95, #f6fbe9);
   padding: 50px;
-  width: 512px;
+  width: 470px;
   height: 497px;
 }
 
@@ -612,6 +612,7 @@ span {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
+  transition: 3s;
 }
 
 .modal-content {
@@ -621,12 +622,14 @@ span {
   border-radius: 10px;
   max-width: 900px;
   text-align: center;
+  transition: 3s;
 }
 
 .modal-info {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  transition: 3s;
 }
 
 .modal-box {
@@ -635,6 +638,7 @@ span {
   background-color: var(--Green-95, #234338);
   border-radius: 8px;
   color: var(--Green-70, #cbea7b);
+  transition: 3s;
 }
 
 .modal-box p {
